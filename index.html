@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="anu">
+    <h1>Body Mass Index Calculator</h1>
+     <div class="card" >
+    <div id="left">
+    <h2>Body Mass Index </h2>
+    <label>Enter your height in feets and inches</label>
+    <br>
+    <input  type="tel" id="feet" placeholder="Feets">
+    <input type="tel" id="inch"  placeholder="inches">
+    <br><br>
+    <label>Enter your weight in kgs</label>
+    <br>
+    <input type="tel" id="kg" placeholder="kilogram and gram">
+    <button  onclick="CalculateBMI()">Calculate</button>
+    <h1 id="result"></h1>
+    </div>
+    <div id="right">
+        <h2>Body Mass Index Information </h2>
+        <h3>Severe Underweight: Less than 16.5 </h3>
+        <h3>Underweight:16.5-18.5</h3>
+        <h3>Normalweight:18.5-25.5</h3>
+        <h3>Overweight:25.5-30.5</h3>
+        <h3>Obesity: 30.5-30.5</h3>
+        <h3>Severely Obese:More than 30</h3> 
+
+    </div>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
